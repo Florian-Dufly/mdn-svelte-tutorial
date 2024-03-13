@@ -33,11 +33,11 @@
     todos
 
     const checkAllTodos = (completed) => {
-      todos.forEach((t)(t.completed = completed));
+      todos.forEach((t) => (t.completed = completed));
     }
 
     const removeCompletedTodos = () => {
-      (todos.filter((t) => !t.completed));
+      (todos = todos.filter((t) => !t.completed));
     }
 
 </script>
